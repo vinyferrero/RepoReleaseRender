@@ -1,5 +1,4 @@
 Release:
-  - folder: "/home/viny/Documents/VinyTech/Rrr"
   - repo:
     name: "zephyrproject"
     url: https://github.com/zephyrproject-rtos/zephyr.git
