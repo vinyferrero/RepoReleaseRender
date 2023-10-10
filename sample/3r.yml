@@ -1,0 +1,16 @@
+Release:
+  - folder: "/home/viny/Documents/VinyTech/Rrr"
+  - repo:
+    name: "zephyrproject"
+    url: https://github.com/zephyrproject-rtos/zephyr.git
+    branch: main
+    tag: v2.5.0
+  - repo:
+    name: "AppNrfConnect"
+    url: https://github.com/NordicSemiconductor/Android-nRF-Connect.git
+    branch: main
+    commit: dd178e33318764037d76716b005d814401e6cb08
+  - repo:
+    name: "ble-watch"
+    url: https://github.com/CharlesDias/BLE-Watch.git
+    branch: develop
