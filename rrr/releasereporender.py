@@ -2,7 +2,7 @@
 
 import os
 import yaml
-from src.repository import Repository
+from rrr.repository import Repository
 
 class ReleaseRepoRender:
     def __init__(self, path, release_dir):
