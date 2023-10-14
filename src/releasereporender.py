@@ -11,6 +11,9 @@ class ReleaseRepoRender:
         with open(path, 'r') as file:
             self.data = yaml.safe_load(file)
             
+    def __del__(self):
+        print(f"Deletion instance ReleaseRepoRender")
+            
     def __str__(self):
         str1 = ""
         return str1
