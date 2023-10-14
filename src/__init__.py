@@ -21,6 +21,6 @@ def generate_release_environment(filepath, dirpath):
         print(f"the directory: {dirpath} does not exist.")
         
     if b_is_file and b_is_dir:
-        rrr = ReleaseRepoRender(filepath, dirpath)
-        rrr.prepare_repositories()
-        del rrr
+        env = ReleaseRepoRender(filepath, dirpath)
+        env.prepare_repositories()
+        del env
